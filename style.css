@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #010101;
+}
+
+.container{
+    perspective: 700px;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    place-items: center;
+}
+
+.card{
+    width: 250px;
+    height: 350px;
+    background-image: url("goku.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 100px 5px rgba(63,127,242,0.2);
+}
